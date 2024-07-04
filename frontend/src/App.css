@@ -1,0 +1,17 @@
+
+
+.quiz-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    width: 100%;
+    height: calc(100vh - 80px);
+
+}
+ 
+.quiz-app > a {
+    text-decoration: none;
+    
+}

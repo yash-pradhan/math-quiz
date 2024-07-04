@@ -1,0 +1,33 @@
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.quiz-header > div:first-child {
+    width: 40px;
+    height: 40px;
+    visibility: hidden;
+}
+
+.quiz-header{
+    background-color: #647D87;
+    color: #fff;
+}
+
+
+.quiz-header>.login-icon {
+    justify-self: flex-end;
+    z-index: 100;
+    font-size: 22px;
+    color: #fff;
+    background-color: #65b80d;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
